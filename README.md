@@ -8,7 +8,7 @@ This model was used for reply gif files in wechat. It works as follows:
  
  3.for any input image for gif, also extract features and get the most similar 20 expressions by using Nearest neighboors
  
- To train your model, run:
+ To start your model, run:
  
 ```python
 git clone git@github.com:DeeChat/chatbot-picture.git
