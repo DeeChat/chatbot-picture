@@ -6,7 +6,7 @@ This model was used for reply gif files in wechat. It works as follows:
  2.extract the features from the crawled expressionss with the help of trained vgg19. 
    we can generate an array which shape is (num_expressions, num_features)
  
- 3.for any input image for gif, also extract features and get the most similar 20 expressions by using Nearest neighboors
+ 3.for any input image and gif, also extract features and get the most similar 20 expressions by using Nearest neighboors
  
  To start your model, run:
  
