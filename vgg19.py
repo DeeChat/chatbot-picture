@@ -51,7 +51,7 @@ if __name__ == '__main__':
     num_results = 32
     count = 1
     for i in range(1,num_results+1):
-        dir = '/home/johnson/PycharmProjects/chatbot-picture/results/result'+str(i)
+        dir = '/results/result'+str(i)
         files = os.listdir(dir)
         batch_size = 200
         for file in files:
